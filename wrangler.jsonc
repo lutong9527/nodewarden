@@ -1,4 +1,12 @@
 {
+  "name": "nodewarden",  // 替换为你的 Worker 名称
+  "compatibility_date": "2026-03-12",  // 或使用当前日期
+  
+  // 如果你有静态资源目录
+  "assets": {
+    "directory": "./dist"  // 确保这个路径存在且包含你的资源文件
+  },
+  
   "observability": {
     "enabled": false,
     "head_sampling_rate": 1,
